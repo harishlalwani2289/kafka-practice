@@ -43,6 +43,7 @@ public class TwitterProducer {
     public void run(){
 
         logger.info("Setup");
+        // a simple change to test git
 
         /** Set up your blocking queues: Be sure to size these properly based on expected TPS of your stream */
         BlockingQueue<String> msgQueue = new LinkedBlockingQueue<String>(1000);
